@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #141414;
+    color: #ffffff;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #e50914;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #b20710;
+}
+
+button:disabled {
+    background-color: #555;
+    cursor: not-allowed;
+}
+
+#movie-info {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #222;
+    border: 1px solid #444;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+.error {
+    color: #ff6b6b;
+}
+
+.similar-list {
+    text-align: left;
+}
