@@ -3,7 +3,7 @@ const searchBtn = document.getElementById('search-btn');
 const similarBtn = document.getElementById('similar-btn');
 const movieInfoDiv = document.getElementById('movie-info');
 
-const API_KEY = 'http://www.omdbapi.com/?i=tt3896198&apikey=a4ca1f7f';
+const API_KEY = 'http://www.omdbapi.com/?i=tt3896198&apikey=a4ca1f7f'; // sign up for ombdapi to get your key
 let currentMovie = null; // Store movie data for similar searches
 
 async function fetchMovie(title, isSearch = true) {
